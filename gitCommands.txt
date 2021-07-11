@@ -3,3 +3,37 @@ git init
 
 To add all the files to git repository
 git add .
+
+To check the status on master branch
+git status
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   FileA.txt
+        new file:   FileB.txt
+        new file:   gitCommands.txt
+(use "git restore --staged <file>..." to unstage)
+        modified:   FileA.txt
+
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+To commit the changes to git repository
+git commit -m "message"
+
+To view git logs
+git log
+
+To view the git configurations
+git config --list
+
+To update user name on global level
+git config --global user.name "Azure Training"
+
+To update email on global level
+git config --global user.email "training.az400@hotmail.com"
+
+To view the difference between versions
+git diff
