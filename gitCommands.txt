@@ -1,0 +1,5 @@
+To initialize git repository
+git init
+
+To add all the files to git repository
+git add .
